@@ -1,0 +1,30 @@
+{
+  "name": "graphql-modules",
+  "version": "1.4.2",
+  "description": "Create reusable, maintainable, testable and extendable GraphQL modules",
+  "sideEffects": false,
+  "peerDependencies": {
+    "graphql": "^14.0.0 || ^15.0.0"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^7.0.0",
+    "@graphql-tools/wrap": "^7.0.1",
+    "@graphql-typed-document-node/core": "^3.1.0",
+    "ramda": "^0.27.1"
+  },
+  "keywords": [
+    "graphql",
+    "graphql-modules",
+    "server",
+    "typescript",
+    "the-guild"
+  ],
+  "author": "Kamil Kisiela",
+  "license": "MIT",
+  "main": "index.cjs.js",
+  "module": "index.esm.js",
+  "typings": "index.d.ts",
+  "typescript": {
+    "definition": "index.d.ts"
+  }
+}
